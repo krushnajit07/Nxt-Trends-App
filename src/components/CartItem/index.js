@@ -41,7 +41,7 @@ const CartItem = props => (
                 onClick={decrementCartItemQuantityF}
                 className="quantity-controller-button"
               >
-                <BsDashSquare color="#52606D" size={12} />
+                <BsDashSquare color="#52606D" size={13} />
               </button>
               <p className="cart-quantity">{quantity}</p>
               <button
