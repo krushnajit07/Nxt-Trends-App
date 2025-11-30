@@ -1,53 +1,122 @@
-In this project, let's build a **Nxt Trendz App** by applying the concepts learned till now.
+## 🛒 Nxt Trends – Modern E-Commerce Web Application
 
-### Refer to the video below:
+**Nxt Trends** is a cutting-edge e-commerce platform inspired by **Amazon and Flipkart**, built using modern React practices.  
+It features a seamless shopping experience with authentication, product browsing, cart management, and detailed product pages.
 
-<br/>
-<div style="text-align: center;">
-  <video style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-output.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
+----------
+
+## 🚀 **Live Demo / Preview**
 
 
-### The app has the following functionalities
+👉 **Demo :** https://krushnanxttrend.ccbp.tech/
 
-- When an unauthenticated user tries to access the **Cart** Route, then the page should be navigated to **Login** Route
+**User credentials**
+```
+Username : rahul
+Password : rahul@2021
+```
+--------
+## 📸 **Screenshots**
 
-- Following are the features
+### 🔐 Login Page
+![Login](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-home-output.png)
 
-  - Feature 1
+------
+###   🏠 **Home Page**
+![Home](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-home-output.png)
 
-    - When an authenticated user tries to add the same product multiple times
-      - The quantity of the product should be updated accordingly, and the count of the cart items in the header should be remained same
+------
+ 
+### 🛍️ Products Page
+![Products Page](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-lg-output-v2.png)
 
-  - Feature 2
+------
+    
+### 📝 Product Details Page
+![Product Details Page](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-lg-output-v2.png)
 
-    - The total amount and number of items in the cart should be displayed in the **Cart** Route
+------
+    
+###  🛒 Cart Page
 
-  - Feature 3
+![Cart](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-lg-output.png)
 
-    - In each cart item in the cart
-      - When the plus icon is clicked, then the quantity of the product should be incremented by one
-      - When the minus icon is clicked, then the quantity of the product should be decremented by one
-      - When the quantity of the product is one and the minus icon is clicked, then the respective product should be removed from the cart
-      - Based on the quantity of the product, the product price and the Cart Summary, i.e the total cost should be updated accordingly
+ 
+------
 
-  - Feature 4
+##  Core Features
 
-    - When an authenticated user clicks on the remove button, cart item should be removed from the cart list
+### 🔐 **Authentication & Authorization**
 
-  - Feature 5
+-   JWT-based secure login
+    
+-   Protected routes (Products, Cart, Product Details)
+    
+-   Redirects unauthenticated users to Login
+    
 
-    - When an authenticated user clicks on the **Remove All** button, all the cart items should be removed from the cart and [Empty Cart View](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-empty-cart-view.png) should be displayed
+### 🛍️ **Product Browsing**
 
-- The `CartContext` has an object as a value with the following properties
-  - `cartList` - this key stores the cart items
-  - `removeAllCartItems` - this method is used to remove all the cart items in the `cartList`
-  - `addCartItem` - this method adds the cart item to the `cartList`
-  - `removeCartItem` - this method removes the cart item from the `cartList`
-  - `incrementCartItemQuantity` - this method increases the quantity of a product in the `cartList`
-  - `decrementCartItemQuantity` - this method decreases the quantity of a product in the `cartList`
+-   Displays a full catalog of products
+    
+-   Search & sorting (if implemented)
+    
+-   Responsive grid layout
+    
 
-</details>
+### 📝 **Product Details**
+
+-   Individual product view
+    
+-   Price, rating, description, and image preview
+    
+-   Add-to-cart functionality
+    
+
+### 🛒 **Shopping Cart**
+
+-   Add / remove items
+    
+-   Quantity updates
+    
+-   Real-time total calculation
+    
+
+### 🌐 **REST API Integration**
+
+-   Login API
+    
+-   Products API
+    
+-   Cart management APIs
+    
+
+### 📱 **Responsive UI**
+
+-   Optimized for mobile, tablet, and desktop
+    
+-   Built using **CSS + Bootstrap** for consistent styling
+    
+
+----------
+
+##  🛠  Tech Stack
+
+-   **React JS**
+    
+-   **JavaScript (ES6+)**
+    
+-   **CSS / Bootstrap**
+    
+-   **React Router**
+    
+-   **REST API Calls (fetch / axios)**
+    
+-   **JWT Token Authentication**
+    
+-   **Authorization using Protected Routes**
+    
+-   **Local Storage**
+    
+
+----------
